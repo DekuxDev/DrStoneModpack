@@ -1,0 +1,106 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines ore compatibility.",
+    "",
+    "Slag content will be generated for each oredict entry.",
+    "",
+    "The first valid key in each langKey list will be chosen; reorder keys",
+    "to change which key is selected.",
+    "",
+    "The first valid nugget in each output list will be chosen; reorder nuggets",
+    "to change which nugget is selected.",
+    "",
+    "Slag color is a hex color code without the #",
+    "",
+    "Lang keys are in the format: (domain):(key)",
+    "",
+    "Output item strings are in the format: (domain):(path):(meta)"
+  ],
+  "oredict": {
+    "oreAluminum": {
+      "slagColor": "e2e2e3",
+      "langKey": [
+        "grimpack:tile.aluminum_ore",
+        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
+      ],
+      "output": [
+        "immersiveengineering:metal:21",
+        "primal:aluminum_nugget:0"
+      ]
+    },
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "immersiveengineering:tile.immersiveengineering.ore.copper"
+      ],
+      "output": [
+        "immersiveengineering:metal:20",
+        "primal:copper_nugget:0"
+      ]
+    },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "grimpack:item.gold_ore_item",
+        "minecraft:tile.oreGold"
+      ],
+      "output": [
+        "minecraft:gold_nugget:0"
+      ]
+    },
+    "oreIron": {
+      "slagColor": "d8af93",
+      "langKey": [
+        "grimpack:item.iron_ore_item",
+        "minecraft:tile.oreIron"
+      ],
+      "output": [
+        "immersiveengineering:metal:29",
+        "minecraft:iron_nugget:0"
+      ]
+    },
+    "oreLead": {
+      "slagColor": "95afee",
+      "langKey": [
+        "immersiveengineering:tile.immersiveengineering.ore.lead"
+      ],
+      "output": [
+        "immersiveengineering:metal:22",
+        "primal:lead_nugget:0"
+      ]
+    },
+    "oreNickel": {
+      "slagColor": "e4e5d8",
+      "langKey": [
+        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+      ],
+      "output": [
+        "immersiveengineering:metal:24",
+        "primal:nickel_nugget:0"
+      ]
+    },
+    "oreSilver": {
+      "slagColor": "e8f6fd",
+      "langKey": [
+        "immersiveengineering:tile.immersiveengineering.ore.silver"
+      ],
+      "output": [
+        "immersiveengineering:metal:23",
+        "primal:silver_nugget:0"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "grimpack:tile.uranium_ore",
+        "immersiveengineering:tile.immersiveengineering.ore.uranium"
+      ],
+      "output": [
+        "immersiveengineering:metal:25"
+      ]
+    }
+  }
+}
