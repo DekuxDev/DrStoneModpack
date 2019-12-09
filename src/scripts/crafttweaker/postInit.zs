@@ -12,4 +12,5 @@ ZenStager.buildAll();
 
 function initRemoveAll() {
 	scripts.crafttweaker.removeAndHide.init();
+	scripts.crafttweaker.removeCategory.init();
 }
